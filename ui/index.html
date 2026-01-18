@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AI-powered music transformation tool. Upload audio, describe your vision, and let AI create something new." />
+    <meta name="theme-color" content="#020617" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎵</text></svg>" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <title>Ayaan's Composition Assistant | AI Music Transformation</title>
+    
+    <style>
+      /* Critical CSS for initial load */
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #020617;
+        color: #f1f5f9;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      }
+      
+      /* Loading state */
+      #root:empty::after {
+        content: '';
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 100px auto;
+        border: 3px solid rgba(139, 92, 246, 0.2);
+        border-top-color: #8b5cf6;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
