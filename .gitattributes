@@ -1,0 +1,2 @@
+transcriptionLibs/bp_env filter=lfs diff=lfs merge=lfs -text
+transcriptionLibs/FluidR3_GM/FluidR3_GM.sf2 filter=lfs diff=lfs merge=lfs -text
