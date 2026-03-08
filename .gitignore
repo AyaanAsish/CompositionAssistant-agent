@@ -1,0 +1,103 @@
+# ===========================================
+# Composition Assistant - Git Ignore
+# ===========================================
+
+# ---- Environment & Secrets ----
+.env
+scripts/setup-personal.sh
+token.json
+credentials.json
+*.key
+*.pem
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+.conda/
+
+# ---- IDE ----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# ---- Testing ----
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ---- Temporary Files ----
+tmp/
+*.tmp
+*.temp
+*.log
+*.bak
+
+# ---- OS Files ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---- Docker ----
+*.log
+
+# ---- Node (UI) ----
+ui/node_modules/
+ui/dist/
+ui/.cache/
+ui/.parcel-cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- Audio/Media Files (optional - uncomment if needed) ----
+# *.wav
+# *.mp3
+# *.midi
+# *.mid
+
+# ---- Large Files ----
+# FluidR3_GM/  # Uncomment if you don't want to track soundfont
+tmp
