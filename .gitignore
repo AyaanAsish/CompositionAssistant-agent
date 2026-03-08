@@ -101,3 +101,4 @@ yarn-error.log*
 # ---- Large Files ----
 # FluidR3_GM/  # Uncomment if you don't want to track soundfont
 tmp
+transcriptionLibs
